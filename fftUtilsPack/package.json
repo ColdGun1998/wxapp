@@ -1,0 +1,22 @@
+{
+    "name": "location_js_sdk",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "npm run build:dev && node test/test.js",
+        "test:single": "npm run build:dev && node test/singleFrequency/test.js",
+        "build": "node script/build.js && node ./script/copyfile.js",
+        "build-nocopy": "node script/build.js",
+        "build:dev": "node script/build.dev.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@babel/core": "^7.14.6",
+        "@babel/preset-env": "^7.14.7",
+        "babel-loader": "^8.2.2",
+        "babel-plugin-add-module-exports": "^1.0.4",
+        "webpack": "^5.44.0"
+    }
+}

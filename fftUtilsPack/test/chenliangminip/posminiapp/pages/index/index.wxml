@@ -1,0 +1,14 @@
+<!--index.wxml-->
+<view class="container">
+    <button type="primary" class="btn" bindtap="startRecorder" wx:if="{{!startRecorderFlag}}">开始录音</button>
+    <button type="primary" class="btn" bindtap="stopRecorder" wx:else>停止录音</button>
+    <view class="user">tdoa1：{{tdoa1}}</view>
+    <view class="userinfo">tdoa2：{{tdoa2}}</view>
+    <view class="userinfo">distances1：{{distances1}}</view>
+    <view class="userinfo">distances2：{{distances2}}</view>
+    <!-- <view class="userinfo">{{discount1}}</view>
+    <view class="userinfo">{{discount2}}</view> -->
+    <view class="userinfo">经纬度1：{{coordinate1}}</view>
+    <view class="userinfo">经纬度2：{{coordinate2}}</view>
+    <view class="userinfo">当前基站群：{{indexInfo}}</view>
+</view>

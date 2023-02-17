@@ -1,0 +1,21 @@
+/**index.wxss**/
+.user {
+    width: 100%;
+    min-height: 35px;
+    color: #000;
+    padding-left: 20px;
+    padding-top: 30px;
+}
+
+.userinfo {
+    width: 100%;
+    min-height: 35px;
+    color: #000;
+    padding-left: 20px;
+}
+
+.btn {
+    width: 150px;
+    height: 50px;
+    margin-top: 30px;
+}

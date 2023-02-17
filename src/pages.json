@@ -1,0 +1,89 @@
+{
+    "pages": [{
+
+        "path": "pages/index/index",
+        "style": {
+            "navigationBarTitleText": "V1.0.0.2207172322"
+        }
+    }],
+    "subPackages": [{
+            "root": "pagesSetting",
+            "pages": [{
+                "path": "about/about",
+                "style": {
+                    "navigationBarTitleText": "about"
+                }
+            }]
+        },
+        {
+            "root": "pagesSetting",
+            "pages": [{
+                "path": "settings1dThreeBeacon/settings1dThreeBeacon",
+                "style": {
+                    "navigationBarTitleText": "设置"
+                }
+            }]
+        },
+        {
+            "root": "pagesSetting",
+            "pages": [{
+                "path": "settings1d/settings1d",
+                "style": {
+                    "navigationBarTitleText": "设置"
+                }
+            }]
+        },
+        {
+            "root": "pagesSetting",
+            "pages": [{
+                "path": "settings2d/settings2d",
+                "style": {
+                    "navigationBarTitleText": "设置"
+                }
+            }]
+        },
+        {
+            "root": "pagesSetting",
+            "pages": [{
+                "path": "settingsSuzhou/settingsSuzhou",
+                "style": {
+                    "navigationBarTitleText": "设置"
+                }
+            }]
+        },
+        {
+            "root": "pagesSetting",
+            "pages": [{
+                "path": "settingsShengBo/settingsShengBo",
+                "style": {
+                    "navigationBarTitleText": "设置"
+                }
+            }]
+        },
+        {
+            "root": "pagesSetting",
+            "pages": [{
+                "path": "settingsYanjiuyuan/settingsYanjiuyuan",
+                "style": {
+                    "navigationBarTitleText": "设置"
+                }
+            }]
+        },
+        {
+            "root": "pagesSetting",
+            "pages": [{
+                "path": "settingsCangKu/settingsCangKu",
+                "style": {
+                    "navigationBarTitleText": "设置"
+                }
+            }]
+        }
+    ],
+    "workers": "static/workers",
+    "globalStyle": {
+        "navigationBarTextStyle": "black",
+        "navigationBarTitleText": "uni-app",
+        "navigationBarBackgroundColor": "#F8F8F8",
+        "backgroundColor": "#F8F8F8"
+    }
+}

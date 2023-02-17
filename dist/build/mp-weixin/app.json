@@ -1,0 +1,33 @@
+{
+  "pages": [
+    "pages/index/index"
+  ],
+  "subPackages": [
+    {
+      "root": "pagesSetting",
+      "pages": [
+        "about/about",
+        "settings1dThreeBeacon/settings1dThreeBeacon",
+        "settings1d/settings1d",
+        "settings2d/settings2d",
+        "settingsSuzhou/settingsSuzhou",
+        "settingsShengBo/settingsShengBo",
+        "settingsYanjiuyuan/settingsYanjiuyuan",
+        "settingsCangKu/settingsCangKu"
+      ]
+    }
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "workers": "static/workers",
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+  "usingComponents": {}
+}

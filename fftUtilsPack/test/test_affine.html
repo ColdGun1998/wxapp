@@ -1,0 +1,59 @@
+<html>
+
+<head>
+    <script src="../src/affine.js"></script>
+</head>
+
+<body>
+    <script>
+        affine = new Affine();
+        let srcPoints = [{
+            x: 0,
+            y: 0
+        }, {
+            x: 1,
+            y: 1
+        }, {
+            x: 0,
+            y: 1
+        }];
+
+        let dstPoints = [{
+            x: 0,
+            y: 0
+        }, {
+            x: 1.414,
+            y: 0
+        }, {
+            x: 0.707,
+            y: 0.707
+        }];
+
+        affine.init(srcPoints, dstPoints);
+
+        console.log(affine);
+
+        for (let i = 0; i < srcPoints.length; i++) {
+            let dstPoint = affine.affine(srcPoints[i]);
+            console.log("from " + JSON.stringify(srcPoints[i]) + " to " + JSON.stringify(dstPoint));
+        }
+
+
+        srcPoints = [{
+            x: -1,
+            y: 0
+        }, {
+            x: 2,
+            y: 0
+        }]
+        for (let i = 0; i < srcPoints.length; i++) {
+            let dstPoint = affine.affine(srcPoints[i]);
+            console.log("from " + JSON.stringify(srcPoints[i]) + " to " + JSON.stringify(dstPoint));
+        }
+    </script>
+</body>
+<footer>
+
+</footer>
+
+</html>

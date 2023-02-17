@@ -1,0 +1,30 @@
+<!--index.wxml-->
+<view class="container">
+  <!-- 获取用户信息 -->
+  <view class="userinfo">
+    <view class="userinfo-avatar">
+      <open-data type="userAvatarUrl"></open-data>
+    </view>
+    <open-data type="userNickName"></open-data>
+  </view>
+  <!-- 声波定位 -->
+  <view class="audio">
+    <button type="default" bindtap="startRecorder">开始声波定位</button>
+    <view style="height: 10px;"></view>
+    <button type="warn" bindtap="stopRecorder">停止声波定位</button>
+    <!-- 位置信息 -->
+    <view class="position">
+      位置坐标：[{{positionData}}]
+    </view>
+    <!-- 接收到的声波信息 -->
+    声波信息：
+    <view class="record">
+      {{recordResult||'暂未收到声波信息'}}
+    </view>
+  </view>
+  <!-- 地图 -->
+  <view class="map-box">
+    <image class="map-img" src='./images/map2.png' mode='widthFix' lazy-load="true"></image>
+    <view class="point" style="left: {{(positionData[0]/mapWidth)*100}}vw; top: {{(positionData[1]/mapHeight)*100}}vw;"></view>
+  </view>
+</view>

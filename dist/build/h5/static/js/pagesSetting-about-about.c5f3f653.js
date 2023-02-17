@@ -1,0 +1,1 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["pagesSetting-about-about"],{"690e":function(e,n,t){"use strict";var u;t.r(n);var a,c=function(){var e=this,n=e.$createElement,t=e._self._c||n;return t("v-uni-view")},i=[],l=t("f0c5"),o={},r=Object(l["a"])(o,c,i,!1,null,null,null,!1,u,a);n["default"]=r.exports}}]);

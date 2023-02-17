@@ -1,0 +1,12 @@
+export const SIGNAL_LENGTH = 4096;
+export const IMSERVER = 'wss://locationservice.chuyingzhilian.com/imserver';
+export const DEBUGDOWNLOADSERVER = 'http://192.168.31.116:8080/';
+export const DEBUGUPLOADSERVER = 'http://192.168.31.116:8000/';
+export const LocationSceneTypeArrayType1DThreeBeacon = "一维定位三基站";
+export const LocationSceneTypeArrayType1D = "一维定位";
+export const LocationSceneTypeArrayType2D = "二维定位";
+export const LocationSceneTypeArrayTypeStadium = "体育馆定位";
+export const LocationSceneTypeArrayTypeSuzhou = "苏州定位";
+export const LocationSceneTypeArrayTypeShengBo = "省博定位";
+export const LocationSceneTypeArrayTypeCangKu = "仓库定位";
+export const LocationSceneTypeArrayTypeYanjiuyuan = "湖州研究院定位";

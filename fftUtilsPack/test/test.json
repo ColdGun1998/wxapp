@@ -1,0 +1,19 @@
+{
+  "test001": {
+    "cluster001": {
+      "settings": {
+        "vMaxTh": 10,
+        "vRatioTh": 0.3,
+        "pMaxTh": 1900,
+        "maxRatioTh": 0,
+        "frequencyStart": 19000,
+        "frequencyEnd": 17000,
+        "durationTime": 0.04,
+        "totalLenth": 10.63,
+        "timeIntervals": [0.145],
+        "soundSpeed": 340,
+        "coordinate": [41.40338, 2.17403]
+      }
+    }
+  }
+}
