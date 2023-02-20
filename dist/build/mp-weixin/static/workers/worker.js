@@ -673,7 +673,7 @@ function twoDProcess(inputData, locations) {
         lastCoordinate: lastCoordinate,
         radius: acousticMaxDrift,
         interval: 0.15,
-        precision: 0.05,
+        precision: 0.1,
         acousticMapLimitFlag: acousticMapLimitFlag
     }
 
@@ -1555,7 +1555,7 @@ function subTwoDProcess(inputData,detectUtil,subFreqSettings,subLocationsSetting
         if (subFreqSettings?.acousticC64Flag == 1) {
             location = fftUtils.calculateLocationC64New(tdoas, subLocationsSettings,subIndex);
         } else {
-            let res = fftUtils.calculateLocationYanjiuyuan(tdoas, subLocationsSettings,subIndex);
+            // let res = fftUtils.calculateLocationYanjiuyuan(tdoas, subLocationsSettings,subIndex);
             if(res){
                 // console.log(res)
                 location = res.mleResult

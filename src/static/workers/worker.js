@@ -673,7 +673,7 @@ function twoDProcess(inputData, locations) {
         lastCoordinate: lastCoordinate,
         radius: acousticMaxDrift,
         interval: 0.15,
-        precision: 0.05,
+        precision: 0.1,
         acousticMapLimitFlag: acousticMapLimitFlag
     }
 

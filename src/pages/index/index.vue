@@ -279,8 +279,8 @@ const setting2D = {
   pMaxTh: 2047,
   maxRatioTh: 5,
   frequencyStart: 17000,
-  frequencyEnd: 19000,
-  durationTime: 0.03,
+  frequencyEnd: 21000,
+  durationTime: 0.01,
   totalLength: 8.4,
   soundSpeed: 340,
   lngStart: 1588,
@@ -289,12 +289,10 @@ const setting2D = {
   latEnd: 403,
   timeInterval: 0.15,
   coordinate: [
-    [0, 0],
-    [0, 7.72],
-    [5.63, 7.72],
-    [12.4, 7.72],
-    [12.34, 0],
-    [5.32, 0],
+    [2.09, 1.56],
+    [6.519, 1.56],
+    [6.46, 6.51],
+    [2, 6.46],
   ],
   imuAlpha: 0,
   imuSteps: 0.5,
@@ -1353,7 +1351,7 @@ export default {
         "湖州研究院定位",
       ],
       LocationSceneTypeIndex: 5,
-      LocationSceneTypeArrayType: "湖州研究院定位",
+      LocationSceneTypeArrayType: "二维定位",
       LocationTypeArray: ["声波", "IMU", "融合", "数据录制"],
       LocationTypeIndex: 0,
       LocationTypeArrayType: "声波",
@@ -2155,7 +2153,7 @@ export default {
               if (res.tdoaInfo) {
                 res.tdoaInfo.forEach((x) => {
                   if (x.tdoa > 0) {
-                    console.log("worker rec tdoa1", {freq:res.freq,tdoa:x.tdoa});
+                    console.log("worker rec tdoa", {freq:"17-21",tdoa:x.tdoa});
                   }
                 });
               }
